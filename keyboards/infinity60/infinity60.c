@@ -16,6 +16,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "infinity60.h"
 
+__attribute__ ((weak))
+void matrix_init_user(void) {
+}
+
+__attribute__ ((weak))
+void matrix_scan_user(void) {
+}
+
 void matrix_init_kb(void) {
 	// put your keyboard start-up code here
 	// runs once when the firmware starts up
